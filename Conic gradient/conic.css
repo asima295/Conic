@@ -1,0 +1,53 @@
+body{
+    background-image: url(img_5terre.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+div{
+    height: 300px;
+    width: 500px;
+    margin: 100px;
+    border: 3px solid blueviolet;
+    border-radius: 50%;
+}
+.c1c1{
+    background-image: conic-gradient(blue,red,green);
+}
+
+.c1c2{
+    background-image: conic-gradient(from 45deg,blue,red,green);
+}
+.c1c3{
+    background-image: conic-gradient(rgba(255,0,0,1),rgba(255,0,0,0));
+}
+
+.c1c4{
+    background-image: conic-gradient(blue 180deg,red,green);
+}
+
+.c1c5{
+    background-image: conic-gradient(blue ,red ,green,blue);
+}
+
+.c1c6{
+    background-image: conic-gradient(blue ,red ,green,gray,pink,black,orange,yellow,purple);
+}
+
+.c1c7{
+    background-image: repeating-conic-gradient(rgba(0,0,0,0)0deg,rgba(0,0,0,0)20deg,rgba(0,0,0,.5)20deg,rgba(0,0,0,.5)30deg);
+    background-color: purple;
+}
+.c1c8{
+    background-image: repeating-conic-gradient(red 0deg,red 90deg,black 90deg,black 180deg);
+}
+.c1c9{
+    background-image: repeating-conic-gradient(red 0deg,red 30deg,green 30deg,green 60deg,purple 60deg,purple 90deg,gray 90deg,gray 120deg);
+}
+.c1c10{
+    background-image: repeating-conic-gradient(red 0deg,red 90deg,green 90deg,green 180deg);
+    background-size: 20px 20px;
+}
+.c1c0{
+    background-image: conic-gradient(red 0deg,red 90deg,black 90deg,black 180deg,green 180deg,green 270deg,purple 270deg,purple 360deg);
+}
